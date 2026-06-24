@@ -1,5 +1,8 @@
 package com.himataku.atomicreate.recipe.Providers;
 
+import com.himataku.atomicreate.AtomiCreate;
+import com.himataku.atomicreate.register.AtomicItems;
+import com.himataku.atomicreate.register.Metals;
 import com.simibubi.create.AllItems;
 import com.simibubi.create.Create;
 import com.simibubi.create.api.data.recipe.CrushingRecipeGen;
@@ -12,6 +15,8 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.Items;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.UnaryOperator;
 
@@ -27,5 +32,22 @@ public final class AtomicCrushingRecipeProvider extends CrushingRecipeGen {
     GeneratedRecipe BLAZE_ROD = create(() -> Items.BLAZE_ROD, b -> b.duration(100)
             .output(Items.BLAZE_POWDER, 3)
             .output(.25f, Items.BLAZE_POWDER, 3));
+
+//    public static final Map<String, GeneratedRecipe> RECIPES = new HashMap<>();
+//
+//     for (String p : AtomicItems.MetalItems) {
+//
+//        create(p + "_crushed", b -> b
+//                .duration(100)
+//                .require(AtomicItems.METAL_ITEMS.get(p).raw().get())
+//                .output(AtomicItems.METAL_ITEMS.get(p).crushed().get())
+//        );
+//
+//    }
+//
+//    public AtomicCrushingRecipeProvider(PackOutput output,
+//                                        CompletableFuture<HolderLookup.Provider> registries) {
+//        super(output, registries, AtomiCreate.ID);
+//    }
 
 }

@@ -2,10 +2,10 @@ package com.himataku.atomicreate.register;
 
 import java.util.List;
 
-/** Master list of metals registered in raw/crushed/nugget/ingot/sheet form. */
+/** Master list of liquid metals registered in # */
 
-public final class Metals {
-    private Metals() {}
+public final class Liquid {
+    private Liquid() {}
 
     public static final List<String> ALL = List.of(
             "lithium",
@@ -25,11 +25,11 @@ public final class Metals {
             "vanadium",
             "chromium",
             "manganese",
-            //"iron",
+            "iron",
             "cobalt",
             "nickel",
-            //"copper",
-            //"zinc",
+            "copper",
+            "zinc",
             "gallium",
             "germanium",
             "arsenic",
@@ -75,7 +75,7 @@ public final class Metals {
             "osmium",
             "iridium",
             "platinum",
-            //"gold",
+            "gold",
             "mercury",
             "thallium",
             "lead",

@@ -19,7 +19,9 @@ public class AtomicItems {
             // "silver_nugget",
     );
 
-    /** Five forms, with id pattern and placeholder */
+    /**
+     * Five forms, with id pattern and placeholder
+     */
     public enum Form {
         RAW("raw_%s", "raw_iron"),
         CRUSHED("crushed_raw_%s", "crushed_raw_iron"),
@@ -44,7 +46,9 @@ public class AtomicItems {
         }
     }
 
-    /** Holds the five forms for a single metal */
+    /**
+     * Holds the five forms for a single metal
+     */
     public record MetalItems(
             ItemEntry<Item> raw,
             ItemEntry<Item> crushed,
@@ -52,9 +56,12 @@ public class AtomicItems {
             ItemEntry<Item> ingot,
             ItemEntry<Item> sheet
 
-    ) {}
+    ) {
+    }
 
-    /** Lookup by metal name */
+    /**
+     * Lookup by metal name
+     */
     public static final Map<String, MetalItems> METAL_ITEMS = new LinkedHashMap<>();
 
     static {
