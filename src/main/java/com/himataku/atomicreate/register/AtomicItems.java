@@ -51,6 +51,7 @@ public class AtomicItems {
             ItemEntry<Item> nugget,
             ItemEntry<Item> ingot,
             ItemEntry<Item> sheet
+
     ) {}
 
     /** Lookup by metal name */
