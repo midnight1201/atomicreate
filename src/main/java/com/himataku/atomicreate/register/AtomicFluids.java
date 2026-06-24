@@ -72,7 +72,7 @@ public class AtomicFluids {
                         .density(density)
                         .viscosity(viscosity))
                 .fluidProperties(p -> p
-                        .tickRate(25)
+                        .tickRate(3)
                         .levelDecreasePerBlock(2))
                 .source(BaseFlowingFluid.Source::new)
                 .block()

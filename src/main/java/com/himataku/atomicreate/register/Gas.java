@@ -8,6 +8,19 @@ public final class Gas {
     private Gas() {}
 
     public static final List<String> ALL = List.of(
+            "krypton",
+            "xenon",
+            "radon",
+            "sulfur_hexafluoride",
+            "carbon_dioxide",
+            "nitrogen",
+            "oxygen",
+            "argon",
+            "carbon_monoxide",
+            "ethane",
+            "propane",
+            "butane",
+            "hydrogen_sulfide",
             "owo"
     );
 

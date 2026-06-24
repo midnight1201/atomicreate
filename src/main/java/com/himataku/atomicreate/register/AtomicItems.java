@@ -27,7 +27,10 @@ public class AtomicItems {
         CRUSHED("crushed_raw_%s", "crushed_raw_iron"),
         NUGGET("%s_nugget", "iron_nugget"),
         INGOT("%s_ingot", "iron_ingot"),
-        SHEET("%s_sheet", "iron_sheet");
+        SHEET("%s_sheet", "iron_sheet"),
+        GEM("%s", "diamond"),
+        MISC_INGOTS("%s_ingot", "iron_ingot"),
+        MISC_OTHER("%s", "paper");
 
         private final String idPattern;
         private final String ironPlaceholder;
@@ -56,6 +59,19 @@ public class AtomicItems {
             ItemEntry<Item> ingot,
             ItemEntry<Item> sheet
 
+
+    ) {
+    }
+
+    public record GemItems(
+            ItemEntry<Item> gem
+
+
+    ) {
+    }
+    public record MiscItems(
+            ItemEntry<Item> misc_ingot,
+            ItemEntry<Item> misc_other
     ) {
     }
 
@@ -63,6 +79,8 @@ public class AtomicItems {
      * Lookup by metal name
      */
     public static final Map<String, MetalItems> METAL_ITEMS = new LinkedHashMap<>();
+    public static final Map<String, ItemEntry<Item>> GEM_ITEMS = new LinkedHashMap<>();
+    public static final Map<String, ItemEntry<Item>> MISC_ITEMS = new LinkedHashMap<>();
 
     static {
         for (String metal : Metals.ALL) {
@@ -73,6 +91,16 @@ public class AtomicItems {
                     registerForm(metal, Form.INGOT),
                     registerForm(metal, Form.SHEET)
             ));
+        }
+
+        for (String gem : Gem.ALL) {
+            GEM_ITEMS.put(gem, registerForm(gem, Form.GEM));
+        }
+        for (String gem : Misc.ALL) {
+            MISC_ITEMS.put(gem, registerForm(gem, Form.MISC_INGOTS));
+        }
+        for (String gem : Misc.OTHER) {
+            MISC_ITEMS.put(gem, registerForm(gem, Form.MISC_OTHER));
         }
     }
 
@@ -85,6 +113,7 @@ public class AtomicItems {
                 .model((ctx, prov) -> prov.generated(ctx, AtomiCreate.asResource("item/" + texture)))
                 .register();
     }
+
 
     public static void register() {
         AtomiCreate.LOGGER.info("Register Items...");

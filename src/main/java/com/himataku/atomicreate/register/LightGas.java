@@ -9,7 +9,13 @@ public final class LightGas {
 
     public static final List<String> ALL = List.of(
             "hydrogen",
-            "hellium",
+            "helium",
+            "ammonia",
+            "methane",
+            "hydrogen_chloride",
+            "neon",
+            "steam",
+            "ozone",
             "uwu"
     );
 
