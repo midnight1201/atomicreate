@@ -33,21 +33,6 @@ public final class AtomicCrushingRecipeProvider extends CrushingRecipeGen {
             .output(Items.BLAZE_POWDER, 3)
             .output(.25f, Items.BLAZE_POWDER, 3));
 
-//    public static final Map<String, GeneratedRecipe> RECIPES = new HashMap<>();
-//
-//     for (String p : AtomicItems.MetalItems) {
-//
-//        create(p + "_crushed", b -> b
-//                .duration(100)
-//                .require(AtomicItems.METAL_ITEMS.get(p).raw().get())
-//                .output(AtomicItems.METAL_ITEMS.get(p).crushed().get())
-//        );
-//
-//    }
-//
-//    public AtomicCrushingRecipeProvider(PackOutput output,
-//                                        CompletableFuture<HolderLookup.Provider> registries) {
-//        super(output, registries, AtomiCreate.ID);
-//    }
+
 
 }

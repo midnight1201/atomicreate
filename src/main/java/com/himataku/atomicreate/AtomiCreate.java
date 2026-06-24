@@ -1,5 +1,6 @@
 package com.himataku.atomicreate;
 
+import com.himataku.atomicreate.recipe.Providers.RecipeProvider;
 import com.himataku.atomicreate.register.AtomiCreativeModeTabs;
 import com.himataku.atomicreate.register.AtomicBlocks;
 import com.himataku.atomicreate.register.AtomicFluids;
@@ -10,10 +11,16 @@ import com.simibubi.create.foundation.item.KineticStats;
 import com.simibubi.create.foundation.item.TooltipModifier;
 import net.createmod.catnip.lang.FontHelper;
 import net.minecraft.resources.ResourceLocation;
+import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
+import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
+import net.neoforged.neoforge.data.event.GatherDataEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -37,7 +44,7 @@ public class AtomiCreate {
         AtomicBlocks.register();
         AtomicFluids.register();
 
-        modBus.addListener(this::onCommonSetup);
+
         modBus.addListener(this::onClientSetup);
     }
 
@@ -45,11 +52,23 @@ public class AtomiCreate {
         return ResourceLocation.fromNamespaceAndPath(ID, path);
     }
 
-    private void onCommonSetup(FMLCommonSetupEvent event) {
-        LOGGER.info("Common setup...");
-    }
+    @EventBusSubscriber(modid = AtomiCreate.ID, value = Dist.CLIENT)
+    public static class ClientModEvents {
 
+
+        @SubscribeEvent
+        public static void registerScreens(RegisterMenuScreensEvent event) {
+
+        }
+
+        @SubscribeEvent
+        public static void gatherData(GatherDataEvent event) {
+            RecipeProvider.gatherData(event);
+
+        }
+    }
     private void onClientSetup(FMLClientSetupEvent event) {
         LOGGER.info("Client setup...");
     }
+
 }
