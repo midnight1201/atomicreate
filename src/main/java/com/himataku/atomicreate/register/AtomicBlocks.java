@@ -44,7 +44,7 @@ public class AtomicBlocks {
 
     public static final Map<String, MetalBlock> METAL_BLOCKS = new LinkedHashMap<>();
 
-    static {
+    public static void registerBlocks() {
         for (String metal : Metals.ALL) {
             METAL_BLOCKS.put(metal, new MetalBlock(
                     registerForm(metal, FormBlock.BLOCK),

@@ -1,6 +1,7 @@
 package com.himataku.atomicreate;
 
-import com.himataku.atomicreate.recipe.Providers.RecipeProvider;
+
+import com.himataku.atomicreate.recipe.Providers.RecipeGen;
 import com.himataku.atomicreate.register.AtomiCreativeModeTabs;
 import com.himataku.atomicreate.register.AtomicBlocks;
 import com.himataku.atomicreate.register.AtomicFluids;
@@ -43,10 +44,11 @@ public class AtomiCreate {
         AtomicItems.register();
         AtomicBlocks.register();
         AtomicFluids.register();
-
+        AtomicBlocks.registerBlocks();
 
         modBus.addListener(this::onClientSetup);
     }
+
 
     public static ResourceLocation asResource(String path) {
         return ResourceLocation.fromNamespaceAndPath(ID, path);
@@ -63,8 +65,8 @@ public class AtomiCreate {
 
         @SubscribeEvent
         public static void gatherData(GatherDataEvent event) {
-            RecipeProvider.gatherData(event);
 
+            RecipeGen.gather(event);
         }
     }
     private void onClientSetup(FMLClientSetupEvent event) {
