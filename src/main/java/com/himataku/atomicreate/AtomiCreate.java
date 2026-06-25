@@ -1,7 +1,5 @@
 package com.himataku.atomicreate;
 
-
-import com.himataku.atomicreate.recipe.Providers.RecipeGen;
 import com.himataku.atomicreate.register.AtomiCreativeModeTabs;
 import com.himataku.atomicreate.register.AtomicBlocks;
 import com.himataku.atomicreate.register.AtomicFluids;
@@ -18,9 +16,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
-import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
-import net.neoforged.neoforge.client.extensions.common.RegisterClientExtensionsEvent;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -66,9 +62,10 @@ public class AtomiCreate {
         @SubscribeEvent
         public static void gatherData(GatherDataEvent event) {
 
-            RecipeGen.gather(event);
         }
     }
+
+
     private void onClientSetup(FMLClientSetupEvent event) {
         LOGGER.info("Client setup...");
     }
