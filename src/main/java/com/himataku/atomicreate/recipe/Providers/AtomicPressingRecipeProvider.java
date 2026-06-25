@@ -13,16 +13,16 @@ import java.util.concurrent.CompletableFuture;
 
 public class AtomicPressingRecipeProvider extends PressingRecipeGen {
 
+    GeneratedRecipe BLAZE_ROD = create(() -> Items.BLAZE_ROD, b -> b
+            .duration(100)
+            .output(Items.BLAZE_POWDER, 3)
+            .output(0.25f, Items.BLAZE_POWDER, 3));
+
     public AtomicPressingRecipeProvider(
             PackOutput output,
             CompletableFuture<HolderLookup.Provider> registries
     ) {
         super(output, registries, "atomicreate");
     }
-
-    GeneratedRecipe BLAZE_ROD = create(() -> Items.BLAZE_ROD, b -> b.duration(100)
-            .output(Items.BLAZE_POWDER, 3)
-            .output(.25f, Items.BLAZE_POWDER, 3));
-
 
 }

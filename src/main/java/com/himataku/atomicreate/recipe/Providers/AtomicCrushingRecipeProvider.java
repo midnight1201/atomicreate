@@ -20,7 +20,12 @@ import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import java.util.function.UnaryOperator;
 
-public final class AtomicCrushingRecipeProvider extends CrushingRecipeGen {
+public class AtomicCrushingRecipeProvider extends CrushingRecipeGen {
+
+    GeneratedRecipe BLAZE_ROD = create(() -> Items.BLAZE_ROD, b -> b
+            .duration(100)
+            .output(Items.BLAZE_POWDER, 3)
+            .output(0.25f, Items.BLAZE_POWDER, 3));
 
     public AtomicCrushingRecipeProvider(
             PackOutput output,
@@ -28,11 +33,4 @@ public final class AtomicCrushingRecipeProvider extends CrushingRecipeGen {
     ) {
         super(output, registries, "atomicreate");
     }
-
-    GeneratedRecipe BLAZE_ROD = create(() -> Items.BLAZE_ROD, b -> b.duration(100)
-            .output(Items.BLAZE_POWDER, 3)
-            .output(.25f, Items.BLAZE_POWDER, 3));
-
-
-
 }

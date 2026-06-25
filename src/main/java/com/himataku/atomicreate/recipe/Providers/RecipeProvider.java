@@ -9,13 +9,7 @@ public class RecipeProvider {
         var generator = event.getGenerator();
         var output = generator.getPackOutput();
 
-//        generator.addProvider(
-//                event.includeServer(),
-//                new AtomicCraftingRecipeProvider(
-//                        output,
-//                        event.getLookupProvider()
-//                )
-//        );
+
 
         generator.addProvider(
                 event.includeServer(),
