@@ -64,11 +64,12 @@ public class AtomiCreate {
         // Fluids
         AtomicFluids.register();
 
+        // Datagen
+        modBus.addListener(ModDataGenerator::gatherData);
+
         // Client Setup
         modBus.addListener(this::onClientSetup);
 
-        // Data Generation
-        modBus.addListener(ModDataGenerator::gatherData);
     }
 
     public static ResourceLocation asResource(String path) {
@@ -89,6 +90,12 @@ public class AtomiCreate {
         public static void registerScreens(
                 RegisterMenuScreensEvent event
         ) {
+
+        }
+
+        @SubscribeEvent
+        public static void gatherData(GatherDataEvent event) {
+            ModDataGenerator.gatherData(event);
 
         }
     }
