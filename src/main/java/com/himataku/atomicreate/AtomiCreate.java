@@ -65,8 +65,8 @@ public class AtomiCreate {
         // Fluids
         AtomicFluids.register();
 
-//         Datagen
-//        modBus.register(AtomicDataGenerators.class);
+        // Datagen
+        modBus.register(AtomicDataGenerators.class);
     }
 
     public static ResourceLocation asResource(String path) {
