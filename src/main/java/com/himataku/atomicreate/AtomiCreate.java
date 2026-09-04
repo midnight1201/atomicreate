@@ -1,7 +1,8 @@
 package com.himataku.atomicreate;
 
 
-import com.himataku.atomicreate.recipe.Providers.ModDataGenerator;
+import com.himataku.atomicreate.recipe.Providers.AtomicDataGenerators;
+
 import com.himataku.atomicreate.register.*;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.foundation.item.ItemDescription;
@@ -64,12 +65,8 @@ public class AtomiCreate {
         // Fluids
         AtomicFluids.register();
 
-        // Datagen
-        modBus.addListener(ModDataGenerator::gatherData);
-
-        // Client Setup
-        modBus.addListener(this::onClientSetup);
-
+//         Datagen
+//        modBus.register(AtomicDataGenerators.class);
     }
 
     public static ResourceLocation asResource(String path) {
@@ -90,19 +87,17 @@ public class AtomiCreate {
         public static void registerScreens(
                 RegisterMenuScreensEvent event
         ) {
+        }
 
         }
 
-        @SubscribeEvent
-        public static void gatherData(GatherDataEvent event) {
-            ModDataGenerator.gatherData(event);
+    @SubscribeEvent
+    public static void gatherData(GatherDataEvent event) {
+        AtomicDataGenerators.gatherData(event);
 
-        }
     }
 
-    /*
-     * Client Setup
-     */
+
     private void onClientSetup(
             FMLClientSetupEvent event
     ) {
