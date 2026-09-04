@@ -222,8 +222,7 @@ public class AtomicItems {
     public static final ItemEntry<Item> BERYLLIUM_INGOT =
             AtomiCreate.REGISTRATE
                     .item("beryllium_ingot", Item::new)
-                    .model((ctx, prov) ->
-                            prov.generated(ctx, AtomiCreate.asResource("item/beryllium_ingot")))
+
                     .register();
 
     public static final ItemEntry<Item> BERYLLIUM_SHEET =

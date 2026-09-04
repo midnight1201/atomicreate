@@ -2,6 +2,7 @@ package com.himataku.atomicreate.register;
 
 import com.himataku.atomicreate.AtomiCreate;
 import com.tterrag.registrate.util.entry.BlockEntry;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 
 public class AtomicBlocks {
@@ -14,7 +15,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -29,7 +30,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -44,7 +45,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -59,7 +60,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -74,7 +75,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -89,7 +90,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -104,7 +105,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -119,7 +120,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -134,7 +135,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -149,7 +150,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -164,7 +165,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -179,7 +180,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -194,7 +195,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -209,7 +210,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -224,7 +225,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -239,7 +240,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -254,7 +255,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -269,7 +270,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -284,7 +285,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -299,7 +300,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -314,7 +315,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -329,7 +330,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -344,7 +345,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -359,7 +360,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -374,7 +375,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -389,7 +390,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -404,7 +405,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -419,7 +420,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -434,7 +435,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -449,7 +450,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -464,7 +465,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -479,7 +480,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -494,7 +495,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -509,7 +510,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -524,7 +525,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -539,7 +540,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -554,7 +555,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -569,7 +570,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -584,7 +585,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -599,7 +600,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -614,7 +615,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -629,7 +630,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -646,7 +647,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -661,7 +662,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -678,7 +679,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -693,7 +694,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -708,7 +709,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -723,7 +724,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -738,7 +739,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -753,7 +754,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -768,7 +769,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -783,7 +784,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -798,7 +799,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -813,7 +814,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -828,7 +829,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -843,7 +844,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -858,7 +859,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -873,7 +874,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -888,7 +889,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -903,7 +904,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -918,7 +919,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -933,7 +934,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -948,7 +949,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -963,7 +964,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -978,7 +979,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -993,7 +994,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1008,7 +1009,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1023,7 +1024,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1038,7 +1039,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1053,7 +1054,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1068,7 +1069,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1083,7 +1084,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1098,7 +1099,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1113,7 +1114,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1128,7 +1129,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1143,7 +1144,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1158,7 +1159,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1173,7 +1174,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1188,7 +1189,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1203,7 +1204,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1218,7 +1219,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1233,7 +1234,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1248,7 +1249,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1263,7 +1264,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1278,7 +1279,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1293,7 +1294,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1308,7 +1309,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1323,7 +1324,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1338,7 +1339,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1353,7 +1354,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1368,7 +1369,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1383,7 +1384,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1398,7 +1399,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1413,7 +1414,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1428,7 +1429,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1443,7 +1444,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1458,7 +1459,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1473,7 +1474,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1488,7 +1489,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1503,7 +1504,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1518,7 +1519,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1533,7 +1534,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1548,7 +1549,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1563,7 +1564,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1578,7 +1579,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1593,7 +1594,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1608,7 +1609,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1623,7 +1624,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1638,7 +1639,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1653,7 +1654,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1668,7 +1669,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1683,7 +1684,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1698,7 +1699,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1713,7 +1714,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1728,7 +1729,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1743,7 +1744,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1758,7 +1759,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1773,7 +1774,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1788,7 +1789,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1803,7 +1804,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1818,7 +1819,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1833,7 +1834,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1848,7 +1849,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1863,7 +1864,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1878,7 +1879,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1893,7 +1894,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1908,7 +1909,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1923,7 +1924,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1938,7 +1939,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1953,7 +1954,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1968,7 +1969,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1983,7 +1984,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -1998,7 +1999,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2013,7 +2014,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2028,7 +2029,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2043,7 +2044,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2058,7 +2059,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2073,7 +2074,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2088,7 +2089,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2103,7 +2104,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2118,7 +2119,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2133,7 +2134,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2148,7 +2149,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2163,7 +2164,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2178,7 +2179,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2193,7 +2194,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2208,7 +2209,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2223,7 +2224,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2238,7 +2239,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2253,7 +2254,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2268,7 +2269,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2283,7 +2284,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2298,7 +2299,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2313,7 +2314,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2328,7 +2329,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2343,7 +2344,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2358,7 +2359,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2373,7 +2374,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2388,7 +2389,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2403,7 +2404,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2418,7 +2419,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2433,7 +2434,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2448,7 +2449,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2463,7 +2464,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2478,7 +2479,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
@@ -2493,7 +2494,7 @@ public class AtomicBlocks {
                                     ctx.get(),
                                     prov.models().cubeAll(
                                             ctx.getName(),
-                                            AtomiCreate.asResource("block/iron_block")
+                                            ResourceLocation.fromNamespaceAndPath("minecraft", "block/iron_block")
                                     )
                             ))
                     .item()
